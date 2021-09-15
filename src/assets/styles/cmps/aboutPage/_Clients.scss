@@ -1,0 +1,18 @@
+.clients{
+    background-color: $clr7;
+    color: $clr3;
+    .clients-main{
+        padding-top: 140px;
+        padding-bottom: 140px;
+    }
+    .header-container{
+        margin-bottom: 70px;
+    }
+
+    .client-card{
+        width:15%;
+        img{
+            width: 100%;
+        }
+    }
+}

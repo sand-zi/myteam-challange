@@ -1,0 +1,40 @@
+// SETUP
+@import "setup/variables.scss";
+@import "setup/typography.scss";
+@import "setup/functions.scss";
+@import "setup/mixins.scss";
+
+// BASICS
+
+@import "basics/base.scss";
+@import "basics/layouts.scss";
+@import "basics/helpers.scss";
+@import "basics/buttons.scss";
+
+// PAGES
+
+@import "pages/Home.scss";
+@import "pages/About.scss";
+@import "pages/ContactUs.scss";
+
+// CMPS
+
+@import "cmps/AppHeader.scss";
+@import "cmps/AppFooter.scss";
+
+//   home cmps
+
+@import "cmps/homePage/HomeHeader.scss";
+@import "cmps/homePage/HomeHighlights.scss";
+@import "cmps/homePage/Testimonials.scss";
+
+// footer
+
+@import "cmps/footer/AddressInfo.scss";
+@import "cmps/footer/ContactUs.scss";
+
+// about cmps
+
+@import "cmps/aboutPage/AboutHeader.scss";
+@import "cmps/aboutPage/MeetDirectors.scss";
+@import "cmps/aboutPage/Clients.scss";

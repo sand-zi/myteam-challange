@@ -1,0 +1,44 @@
+.app-header {
+    background-color: $clr1;
+    color: $clr3;
+
+    .header-container {
+        padding-top: 70px;
+        padding-bottom: 130px;
+        width: 100%;
+    }
+
+    .logo {
+        margin-right: 80px;
+    }
+
+    nav {
+        flex-grow: 1;
+    }
+
+    ul > *:not(:first-child) {
+        margin-left: 43px;
+    }
+
+    button {
+        background-color: inherit;
+        color: inherit;
+        border: 2px solid $clr3;
+        &:hover {
+            color: $clr8;
+            background-color: $clr3;
+        }
+    }
+
+    a {
+        text-transform: lowercase;
+        font-size: rem(18px);
+        line-height: rem(28px);
+
+        &:hover {
+            color: $clr2;
+        }
+
+       
+    }
+}

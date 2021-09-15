@@ -1,0 +1,23 @@
+button{
+    font-family: livvicSemiBold;
+    font-size: rem(18px);
+    line-height: rem(28px);
+    width: 153px;
+    height: 48px;
+    border-radius: 24px;
+    cursor: pointer;
+    text-transform: lowercase;
+}
+
+
+button.round-btn{
+    width:56px;
+    height: 56px;
+    border: none;
+    border-radius: 50%;
+    background-color: $clr2;
+    &:hover{
+        background-color: $clr4;  
+    }
+}
+

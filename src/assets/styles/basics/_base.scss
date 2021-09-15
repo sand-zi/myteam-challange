@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-family: livvicBold;
+    // font-weight: normal;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    font-family: livvicSemiBold;
+    cursor: pointer;
+}
+// img {
+//     width: 100%;
+// }
+p {
+    margin: 0;
+    font-family: livvicSemiBold;
+}
+
+p.italic {
+    font-family: livvicBoldItalic;
+}
+
+h1.large {
+    font-size: rem(100px);
+    line-height: rem(100px);
+}
+
+h1.small {
+    font-size: rem(64px);
+    line-height: rem(56px);
+}
+
+h2 {
+    font-size: rem(48px);
+    line-height: rem(48px);
+}
+
+h3 {
+    font-size: rem(18px);
+    line-height: rem(28px);
+}
+
+p.large {
+    font-size: rem(18px);
+    line-height: rem(28px);
+}
+
+p.small {
+    font-size: rem(15px);
+    line-height: rem(25px);
+}
+
+input,
+textarea {
+    background-color: inherit;
+    border: 0;
+    outline: none;
+    border-bottom: 2px solid $clr3;
+    font-size: 15px;
+    line-height: 25px;
+    padding: 14px 16px;
+    color: $clr4;
+
+    font-family:  livvicSemiBold;
+    margin-bottom: 24px;
+
+    &::placeholder{
+        color: inherit;
+    }
+}
+
+input:focus,
+textarea:focus{
+    color: $clr3;
+   
+}
+
+
+
+textarea{
+    resize: none;
+}

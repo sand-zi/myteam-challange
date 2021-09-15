@@ -1,0 +1,68 @@
+.meet-directors {
+    background-color: $clr6;
+    color: $clr3;
+
+    .content-container {
+        padding-top: 140px;
+    }
+    .header-container {
+        text-align: center;
+        margin-bottom: 64px;
+    }
+
+    .cards-container {
+        padding-bottom: 168px;
+        gap: 76px 30px;
+    }
+
+    .director-card {
+        width: 350px;
+        height: 253px;
+        background-color: $clr7;
+        padding-top: 30px;
+
+        .img-container {
+            width: 96px;
+            height: 96px;
+            border: 2px solid $clr3;
+            border-radius: 50%;
+            margin-bottom: 16px;
+
+            img {
+                width: 100%;
+                border-radius: 50%;
+            }
+        }
+        .director-info {
+            p.name {
+                color: $clr4;
+            }
+            p.position {
+                color: $clr3;
+            }
+
+            p.testimony {
+                display: inline-block;
+                width: 254px;
+                height: 69px;
+                margin-bottom: 30px;
+                text-align: center;
+            }
+
+            .links-container {
+                gap: 16px;
+
+                a:hover {
+                    svg > path {
+                        fill: $clr2;
+                    }
+                }
+            }
+        }
+
+        .button-container {
+            position: relative;
+            bottom: -27px;
+        }
+    }
+}

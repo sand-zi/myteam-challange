@@ -1,0 +1,61 @@
+.address-info {
+    background-color: $clr8;
+    color: $clr3;
+
+    .content-container {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .brand-container {
+        margin-right: 125px;
+        a {
+            text-transform: lowercase;
+            font-size: rem(18px);
+            line-height: rem(28px);
+
+            &:hover {
+                color: $clr2;
+            }
+        }
+    }
+
+    .address-container {
+        flex-grow: 1;
+
+        p {
+            opacity: 0.6;
+        }
+    }
+
+    .outer-info-container {
+        .links-container {
+            justify-content: flex-end;
+            & > * {
+                cursor: pointer;
+            }
+            & > *:not(:last-child) {
+                margin-right: 16px;
+            }
+
+            svg:hover path {
+                fill: $clr2;
+            }
+
+            // li:hover{
+            //     background-color: $clr8;
+            // }
+
+            // img:hover {
+
+            //     color: $clr2;
+            // }
+        }
+
+        .copyrights-container {
+            p {
+                opacity: 0.6;
+            }
+        }
+    }
+}

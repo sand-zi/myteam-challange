@@ -1,0 +1,60 @@
+.contact-us-page {
+    background-color: $clr1;
+    color: $clr3;
+    padding-bottom: 128px;
+
+    .contact-us-description {
+        width: 50%;
+
+        h1 {
+            line-height: rem(100px);
+            margin-bottom: 16px;
+        }
+
+        h2 {
+            color: $clr2;
+            margin-bottom: 32px;
+        }
+
+        .highlights-container > *:not(:last-child) {
+            margin-bottom: 20px;
+        }
+
+        .contact-highlight-card {
+            gap: 0px 16px;
+            .img-container {
+                width: 102px;
+                .main-img {
+                    position: relative;
+                    left: -60px;
+                    top: -20px;
+                }
+            }
+        }
+    }
+
+    .contact-us-form {
+        width: 50%;
+        align-items: flex-start;
+        .inputs-container {
+            width: 100%;
+        }
+        input,
+        textarea {
+            width: 100%;
+        }
+
+        button {
+            background-color: $clr3;
+            color: $clr6;
+            text-transform: lowercase;
+            border: none;
+
+            &:hover {
+                background-color: $clr6;
+                color: $clr3;
+                border: 2px solid $clr3;
+            }
+        }
+    }
+}

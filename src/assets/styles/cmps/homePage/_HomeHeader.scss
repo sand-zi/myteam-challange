@@ -1,0 +1,55 @@
+.home-page {
+    background-color: $clr1;
+    color: $clr3;
+    // position: relative;
+
+    .bg-decoration {
+    
+
+        &.upper {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            left:-100px;
+        }
+
+        &.lower {
+            position: relative;
+            width: 400px;
+            height: 100px;
+            right: -700px;
+        }
+    }
+    .home-header-container {
+        justify-content: space-between;
+        padding-bottom: 160px;
+    }
+
+    .container-header {
+        width: 635px;
+        padding-right: 70px;
+    }
+
+    h1 > span {
+        color: $clr2;
+    }
+
+    .description-container {
+        width: 435px;
+
+        flex-direction: column;
+        .decoration-container {
+            flex-grow: 1;
+        }
+
+        .decoration {
+            display: inline-block;
+            width: 50px;
+            height: 4px;
+            background-color: $clr4;
+        }
+        p {
+            text-align: left;
+        }
+    }
+}
